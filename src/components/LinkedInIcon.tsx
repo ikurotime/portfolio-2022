@@ -2,7 +2,17 @@ import { useContext, useEffect, useState } from 'react'
 
 import { MouseContext } from './MouseContext'
 
-function LinkedInIcon({ height, width, color, colorHover }) {
+function LinkedInIcon({
+  height,
+  width,
+  color,
+  colorHover
+}: {
+  height: number
+  width: number
+  color: string
+  colorHover: string
+}) {
   const [linkHover, setLinkHover] = useState(false)
   const { cursorChangeHandler } = useContext(MouseContext)
 
