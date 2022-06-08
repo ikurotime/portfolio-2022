@@ -18,7 +18,7 @@ export default function Header() {
           DESIGNER // DEVELOPER // DESIGNER // DEVELOPER // DESIGNER //
         </span>
       </Marquee>
-      <header className='grid w-full h-[90vh] mt-5 overflow-x-hidden text-center sm:-mt-16 place-items-center '>
+      <header className='grid w-full h-[70vh] mt-5 overflow-x-hidden text-center sm:-mt-16 place-items-center '>
         <div className='grid self-start justify-around w-full grid-cols-1 text-5xl font-bold text-left sm:w-8/12 md:grid-rows-1 md:grid-cols-2 place-items-center md:mt-16 lg:text-7xl'>
           <div>
             <span>

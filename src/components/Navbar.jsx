@@ -20,9 +20,7 @@ export default function Navbar() {
   return (
     <div
       className={`flex justify-between gap-5 p-5 font-bold transition-colors ${
-        scroll
-          ? 'bg-[#f7f8fb] dark:bg-slate-700 border-b dark:border-b-slate-200'
-          : ''
+        scroll ? 'bg-gray-100 dark:bg-slate-800 ' : ''
       } sticky top-0 z-20`}
     >
       <div className='hidden col-span-2 gap-5 md:flex md:flex-row'>
