@@ -1,7 +1,7 @@
 import './index.css'
 
 import App from './App'
-import MouseContextProvider from './components/MouseContext'
+import MouseContextProvider from './components/Common/MouseContext'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 

@@ -1,9 +1,11 @@
+import { Arrow } from '../Common/Arrow'
 import Marquee from 'react-fast-marquee'
-import webdev from '../img/WebDev.svg'
+import webdev from '../../img/WebDev.svg'
 
 export default function Header() {
   return (
-    <div className='overflow-x-hidden '>
+    <div className='relative overflow-x-hidden '>
+      <Arrow/>
       <Marquee
         className='rotate-[-2deg] left-[-10px] mt-5'
         gradient={false}
@@ -18,8 +20,8 @@ export default function Header() {
           DESIGNER // DEVELOPER // DESIGNER // DEVELOPER // DESIGNER //
         </span>
       </Marquee>
-      <header className='grid w-full h-[70vh] mt-5 overflow-x-hidden text-center sm:-mt-16 place-items-center '>
-        <div className='grid self-start justify-around w-full grid-cols-1 text-5xl font-bold text-left sm:w-8/12 md:grid-rows-1 md:grid-cols-2 place-items-center md:mt-16 lg:text-7xl'>
+      <header className='grid w-full h-[70vh] mt-5 overflow-x-hidden text-center md:-mt-16 place-items-center '>
+        <div className='grid self-start justify-around w-full grid-cols-1 text-5xl font-bold text-left sm:w-8/12 md:grid-rows-1 md:grid-cols-2 place-items-center md:mt-32 lg:mt-24 lg:text-7xl'>
           <div>
             <span>
               HELLO,

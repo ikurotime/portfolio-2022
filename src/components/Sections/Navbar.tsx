@@ -1,8 +1,8 @@
 import { useContext, useEffect, useState } from 'react'
 
-import GithubInIcon from './GithubIcon'
-import LinkedInIcon from './LinkedInIcon'
-import { MouseContext } from './MouseContext'
+import GithubInIcon from '../Common/GithubIcon'
+import LinkedInIcon from '../Common/LinkedInIcon'
+import { MouseContext } from '../Common/MouseContext'
 
 export default function Navbar() {
   const [scroll, setScroll] = useState(false)

@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 
 import { MouseContext } from './MouseContext'
-import useMousePosition from './useMousePosition'
+import useMousePosition from '../hooks/useMousePosition'
 
 export default function DotRing() {
   // 1.
