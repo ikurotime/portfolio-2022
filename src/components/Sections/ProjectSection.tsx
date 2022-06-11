@@ -48,7 +48,7 @@ export default function ProjectSection() {
   return (
     <>
       <h2 id="projects"  className='my-10 text-4xl sm:text-5xl font-bold border-b-8 border-solid border-[#e63946] w-fit mx-auto'>PROJECTS</h2>
-    <section  className="grid items-center w-full min-h-screen grid-cols-1 grid-rows-5 gap-6 px-10 mb-16 sm:grid-cols-2 sm:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 sm:mt-0">
+    <section  className="grid items-center w-full min-h-screen grid-cols-1 grid-rows-5 gap-6 px-5 mb-16 sm:px-10 sm:grid-cols-2 sm:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 sm:mt-0">
         {projects.map((project) => (
         <ProjectComponent 
         key={project.title}

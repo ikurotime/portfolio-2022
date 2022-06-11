@@ -1,5 +1,5 @@
 export default function TechStack() {
-  return (<svg className="max-w-lg mb-48  md:mb-0" viewBox="0 0 542 592" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+  return (<svg className="max-w-lg md:mb-0" viewBox="0 0 542 592" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
   <circle cx="271" cy="285" r="241.5" stroke="#E63946" strokeWidth="3"/>
   <path d="M441 285C441 378.888 364.888 455 271 455C177.112 455 101 378.888 101 285C101 191.112 177.112 115 271 115C364.888 115 441 191.112 441 285ZM165.453 285C165.453 343.292 212.708 390.547 271 390.547C329.292 390.547 376.547 343.292 376.547 285C376.547 226.708 329.292 179.453 271 179.453C212.708 179.453 165.453 226.708 165.453 285Z" fill="#E63946" fillOpacity="0.6"/>
   <g filter="url(#filter0_d_1_319)">

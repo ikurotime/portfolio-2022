@@ -49,7 +49,7 @@ export default function Navbar() {
           PROJECTS
         </a>
       </div>
-      <div className='flex md:hidden' onClick={() => setHamMenu(!hamMenu)}>
+      <div className='flex md:hidden' onClick={() => scroll && setHamMenu(!hamMenu)}>
         <div className='space-y-2'>
           <span className='block w-6 h-0.5 bg-gray-600 dark:bg-slate-200 animate-pulse'></span>
           <span className='block w-6 h-0.5 bg-gray-600 dark:bg-slate-200 animate-pulse'></span>
