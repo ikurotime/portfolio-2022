@@ -8,8 +8,8 @@ export default function TechSection() {
         <div className='grid place-items-center'>
       <h2 className='my-10 text-4xl md:text-5xl font-bold border-b-8 border-solid border-[#e63946] w-fit'>TECHNOLOGIES</h2>
         <p className='md:text-xl lg:text-2xl max-w-[50ch] font-bold'>
-          These are a few technologies I've worked and im comfortable with
-           since I started Web Development. I love React. Currently, im learning TypeScript.</p>
+          These are a few technologies I've worked and I'm comfortable with
+           since I started Web Development. I love React. Currently, I'm learning TypeScript.</p>
         </div>
         </div>
     <Arrow3/>
