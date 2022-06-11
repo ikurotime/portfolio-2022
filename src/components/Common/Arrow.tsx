@@ -8,7 +8,7 @@ export  const Arrow = () => {
 }
 export const Arrow2 = () => {
   return(
-    <svg className="absolute stroke-slate-700 dark:stroke-slate-100 -bottom-28 -rotate-90 sm:bottom-0 sm:right-10 md:right-[20vw] sm:-rotate-45"  width="148" height="49" viewBox="0 0 148 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg className="absolute stroke-slate-700 dark:stroke-slate-100 -bottom-32 -rotate-90 sm:bottom-0 sm:right-10 md:right-[20vw] sm:-rotate-45"  width="148" height="49" viewBox="0 0 148 49" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M147.119 1C119.658 25.366 84.3179 42.5329 46.5619 38.9005C35.5062 37.8368 23.0022 33.1762 12.9509 28.2049C10.8269 27.1544 8.90358 25.7555 6.95585 24.4096C5.17701 23.1805 8.47623 38.0642 8.7673 39.8147C11.8793 58.5315 8.9841 38.3137 6.87818 31.3575C5.2438 25.9588 1.79178 20.5477 1.02985 14.9173C0.416314 10.3835 9.43086 11.332 12.5239 11.0358C15.7041 10.7313 36.2563 5.64543 33.5064 12.7049C28.5728 25.3706 18.9117 33.85 10.3286 43.7738"  strokeWidth="1.47738" strokeLinecap="round"/>
     </svg>
   )

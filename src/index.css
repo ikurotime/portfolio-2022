@@ -4,6 +4,7 @@
 
 * {
   cursor: none;
+  scroll-behavior: smooth;
 }
 
 .dot {

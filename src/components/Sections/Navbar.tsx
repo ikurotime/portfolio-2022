@@ -6,6 +6,7 @@ import { MouseContext } from '../Common/MouseContext'
 
 export default function Navbar() {
   const [scroll, setScroll] = useState(false)
+  const [hamMenu, setHamMenu] = useState(false)
   const changeBackground = () => {
     setScroll(window.scrollY >= 5)
   }
@@ -18,13 +19,13 @@ export default function Navbar() {
 
   return (
     <div
-      className={`flex justify-between gap-5 p-5 font-bold transition-colors ${
+      className={`flex relative z-20 justify-between gap-5 p-5 font-bold transition-colors ${
         scroll ? 'bg-gray-100 dark:bg-slate-800 ' : ''
       } sticky top-0 z-20`}
     >
       <div className='hidden col-span-2 gap-5 md:flex md:flex-row'>
         <a
-          href='#'
+          href='#about'
           className='hover:bg-[#e63946] rounded p-1 hover:text-white'
           onMouseEnter={() => cursorChangeHandler('hovered')}
           onMouseLeave={() => cursorChangeHandler('')}
@@ -32,23 +33,23 @@ export default function Navbar() {
           ABOUT
         </a>
         <a
-          href='#'
+          href='#tech'
           className='hover:bg-[#e63946] rounded p-1 hover:text-white '
           onMouseEnter={() => cursorChangeHandler('hovered')}
           onMouseLeave={() => cursorChangeHandler('')}
         >
-          CONTACT
+          TECHNOLOGIES
         </a>
         <a
-          href='#'
+          href='#projects'
           className='hover:bg-[#e63946] rounded p-1 hover:text-white'
           onMouseEnter={() => cursorChangeHandler('hovered')}
           onMouseLeave={() => cursorChangeHandler('')}
         >
-          WORK
+          PROJECTS
         </a>
       </div>
-      <div className='flex md:hidden'>
+      <div className='flex md:hidden' onClick={() => setHamMenu(!hamMenu)}>
         <div className='space-y-2'>
           <span className='block w-6 h-0.5 bg-gray-600 dark:bg-slate-200 animate-pulse'></span>
           <span className='block w-6 h-0.5 bg-gray-600 dark:bg-slate-200 animate-pulse'></span>
@@ -59,6 +60,35 @@ export default function Navbar() {
         <LinkedInIcon colorHover='#e63946' color='#111' />
         <GithubInIcon colorHover='#e63946' color='#111' />
       </div>
+      
+      {hamMenu && scroll && (
+        <div className='absolute left-0 right-0 z-10 flex flex-col items-center justify-center p-3 transition-all bg-gray-100 top-16 dark:bg-slate-800'>
+          <div className='flex flex-col gap-5'>
+            <a
+              href='#about' onClick={() => setHamMenu(false)}
+              className='hover:bg-[#e63946] rounded p-1 hover:text-white'
+            >
+              ABOUT
+            </a>
+            <a
+              href='#tech' onClick={() => setHamMenu(false)}
+              className='hover:bg-[#e63946] rounded p-1 hover:text-white '
+            >
+              TECHNOLOGIES
+            </a>
+            <a
+              href='#projects' onClick={() => setHamMenu(false)}
+              className='hover:bg-[#e63946] rounded p-1 hover:text-white'
+              >
+                PROJECTS
+              </a>
+              </div>
+
+
+          </div>
+  )
+  
+}
     </div>
   )
 }

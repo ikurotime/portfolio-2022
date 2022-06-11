@@ -35,7 +35,7 @@ export default function Header() {
             </span>
           </div>
           <img
-            className='relative w-full max-w-lg '
+            className='relative w-full max-w-lg overflow-hidden'
             src={webdev}
             alt='david huertas'
           />
