@@ -12,7 +12,6 @@ export default function Navbar() {
 
   const { cursorChangeHandler } = useContext(MouseContext)
   useEffect(() => {
-    console.log(window.scrollY)
     changeBackground()
     window.addEventListener('scroll', changeBackground)
   }, [])

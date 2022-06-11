@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from 'react'
 
 import { MouseContext } from './MouseContext'
 
-function GithubInIcon({ height, width, color, colorHover }) {
+function GithubInIcon({ height, width, color, colorHover,darkColor }:{height: number, width: number, color: string, colorHover: string,darkColor: string}) {
   const [linkHover, setLinkHover] = useState(false)
   const { cursorChangeHandler } = useContext(MouseContext)
 
@@ -29,7 +29,7 @@ function GithubInIcon({ height, width, color, colorHover }) {
       onMouseLeave={() => cursorChangeHandler('')}
     >
       <svg
-        className={`h-${height} w-${width} dark:fill-slate-200 transition-all`}
+        className={`h-${height} w-${width} dark:${darkColor} transition-all`}
         fill={`${linkHover ? colorHover : color}`}
         viewBox='0 0 24 24'
       >
@@ -42,7 +42,8 @@ GithubInIcon.defaultProps = {
   height: '6',
   width: '6',
   colorHover: '#111',
-  color: '#111'
+  color: '#111',
+  darkColor: 'fill-slate-200'
 }
 
 export default GithubInIcon

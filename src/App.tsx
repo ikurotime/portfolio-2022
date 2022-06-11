@@ -3,6 +3,7 @@ import DotRing from './components/Common/DotRing'
 import Footer from './components/Sections/Footer'
 import Header from './components/Sections/Header'
 import Navbar from './components/Sections/Navbar'
+import ProjectSection from './components/Sections/ProjectSection'
 import TechSection from './components/Sections/TechSection'
 import { isMobile } from 'react-device-detect'
 
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <AboutSection />
       <TechSection/>
+      <ProjectSection/>
       <Footer />
     </div>
   )
