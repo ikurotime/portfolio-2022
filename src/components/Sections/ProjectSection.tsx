@@ -13,7 +13,7 @@ export default function ProjectSection() {
     },
     {
       title: "GeoWeather",
-      techStack: "React, TailwindCSS ,Context API OpenWeatherMap API",
+      techStack: "React, TailwindCSS, Context API, OpenWeatherMap API",
       description: "A weather app that displays the current weather in a given location. It can be used to display the weather in a given location.",
       github: "https://github.com/ikurotime/GeoWeather",
       image: "GeoWeather",
@@ -21,7 +21,7 @@ export default function ProjectSection() {
     },
     {
       title: "2021 Portfolio",
-      techStack: "React,Three.js TailwindCSS, motion, Context API",
+      techStack: "React, Three.js, TailwindCSS, motion, Context API",
       description: "A portfolio website that displays my projects and skills.",
       github: "https://github.com/ikurotime/dh-homepage",
       image: "2021Portfolio",

@@ -2,7 +2,7 @@ import { Arrow3 } from '../Common/Arrow';
 import TechStack from '../Common/TechStack';
 export default function TechSection() {
   return (
-    <section id="tech" className="relative flex  lg:mt-0 flex-col items-center h-auto lg:h-[70vh] px-10  ">
+    <section id="tech" className="relative flex flex-col items-center h-auto px-10 lg:mt-0 ">
         <div className='flex flex-col-reverse items-center justify-center w-full md:flex-row'>
         <TechStack />
         <div className='grid place-items-center'>
