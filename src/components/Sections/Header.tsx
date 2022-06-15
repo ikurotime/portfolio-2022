@@ -8,7 +8,7 @@ export default function Header() {
       <Marquee
         className='rotate-[-2deg] left-[-10px] mt-5'
         gradient={false}
-        speed={150}
+        speed={100}
         style={{ width: '130%' }}
       >
         <span
