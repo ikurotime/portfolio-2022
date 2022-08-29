@@ -1,5 +1,5 @@
 import { Arrow2 } from "../Common/Arrow";
-import david from '../../img/david.png'
+import david from '../../img/david.jpg'
 export default function AboutSection() {
   return (
     <section id="about" className='relative grid items-start h-auto grid-cols-1 gap-5 px-10 lg:my-0 md:grid-cols-2 place-items-center'>
@@ -13,7 +13,7 @@ export default function AboutSection() {
         </p>
         <p className="font-bold">*I do what I can</p>
       </div>
-      <img src={david}alt='david' loading='lazy' width={400} />
+      <img className="rounded-3xl" src={david} alt='david' loading='lazy' width={400} />
       <Arrow2/>
     </section>
   )
