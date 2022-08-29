@@ -27,10 +27,10 @@ export default function ProjectComponent({title,techStack,description,github,img
     <p className='italic'>{techStack}</p>
     <p>{description}</p>
     <div className="flex flex-row" >
-      <a href={link} onMouseEnter={() => cursorChangeHandler('hovered')} target='_blank'
-      onMouseLeave={() => cursorChangeHandler('')}  id='project-visit' className="px-4 py-2 font-bold text-white rounded-full bg-slate-800 dark:bg-[#e63946]">
+     <a href={link} onMouseEnter={() => cursorChangeHandler('hovered')} target='_blank'
+      onMouseLeave={() => cursorChangeHandler('')}  id='project-visit' className="px-4 py-2 font-bold text-white rounded-full bg-slate-800 dark:bg-[#494949]">
         Visit 
-      </a>
+      </a> 
      {github &&  <a href={github} onMouseEnter={() => cursorChangeHandler('hovered')} target='_blank'
       onMouseLeave={() => cursorChangeHandler('')} id='project-code' className="flex gap-2 px-4 py-2 ml-4 font-bold rounded-full bg-slate-200 dark:text-black ">
         Code  <GithubInIcon darkColor='bg-black' />

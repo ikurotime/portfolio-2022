@@ -4,17 +4,17 @@ import ProjectComponent from "../Common/ProjectComponent";
 export default function ProjectSection() {
   const projects = [
     {
-      title: "Discord Bot",
-      techStack: "JavaScript, NodeJS, Express, Firebase, Discord.js",
-      description: "A Discord bot that can be used to manage the server. It can be used to add/remove roles, set/unset the nickname, and kick/ban users.",
-      github: "https://github.com/ikurotime/gary-bot",
-      image: "DiscordImage",
-      link: "https://discord.com/api/oauth2/authorize?client_id=849605392027353108&permissions=8&scope=bot",
+      title: "TechTalks",
+      techStack: "Svelte, TailwindCSS, Twilio Conversation API",
+      description: "A discord-like app that can create and share chat servers with pre-setted channels. Built for Midudev's July Hackathon.",
+      github: "https://github.com/ikurotime/Svelte-Twilio-chat",
+      image: "TechTalks",
+      link: "https://techtalks.davidhuertas.dev",
     },
     {
       title: "GeoWeather",
       techStack: "React, TailwindCSS, Context API, OpenWeatherMap API",
-      description: "A weather app that displays the current weather in a given location. It can be used to display the weather in a given location.",
+      description: "A weather app that displays the current weather in a given location. It can be used to display the weather in a given location. Winner of Midudev's June Hackathon.",
       github: "https://github.com/ikurotime/GeoWeather",
       image: "GeoWeather",
       link: "https://geoweather.davidhuertas.dev",
@@ -41,6 +41,14 @@ export default function ProjectSection() {
       description: "A portfolio website for Alejandro Balea, Game Developer. It has a customization feature that allows the user to change the style of the website. (Work in progress)",
       image: "AlejandroBalea",
       link: "https://portfolio-balea.vercel.app",
+    },
+    {
+      title: "Discord Bot",
+      techStack: "JavaScript, NodeJS, Express, Firebase, Discord.js",
+      description: "A Discord bot that can be used to manage the server. It can be used to add/remove roles, set/unset the nickname, and kick/ban users.",
+      github: "https://github.com/ikurotime/gary-bot",
+      image: "DiscordImage",
+      link: "https://discord.com/api/oauth2/authorize?client_id=849605392027353108&permissions=8&scope=bot",
     }
 
   ];
